@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8F12DFC215F5EBB00BE09C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F12DFB215F5EBB00BE09C8 /* AppDelegate.m */; };
+		F8F12DFF215F5EBB00BE09C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F12DFE215F5EBB00BE09C8 /* ViewController.m */; };
+		F8F12E02215F5EBB00BE09C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F12E00215F5EBB00BE09C8 /* Main.storyboard */; };
+		F8F12E05215F5EBB00BE09C8 /* FLSCollectionViewDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8F12E03215F5EBB00BE09C8 /* FLSCollectionViewDemo.xcdatamodeld */; };
+		F8F12E07215F5EBD00BE09C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F12E06215F5EBD00BE09C8 /* Assets.xcassets */; };
+		F8F12E0A215F5EBD00BE09C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F12E08215F5EBD00BE09C8 /* LaunchScreen.storyboard */; };
+		F8F12E0D215F5EBD00BE09C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F12E0C215F5EBD00BE09C8 /* main.m */; };
+		F8F12E15215F64B400BE09C8 /* EasyCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F12E14215F64B400BE09C8 /* EasyCollectionController.m */; };
+		F8F12E1B215F711F00BE09C8 /* EasyCollectionViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F12E19215F711F00BE09C8 /* EasyCollectionViewHeaderView.m */; };
+		F8F12E1C215F711F00BE09C8 /* EasyCollectionViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8F12E1A215F711F00BE09C8 /* EasyCollectionViewHeaderView.xib */; };
+		F8F12E20215F718900BE09C8 /* EasyCollectionViewFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F12E1E215F718900BE09C8 /* EasyCollectionViewFooterView.m */; };
+		F8F12E21215F718900BE09C8 /* EasyCollectionViewFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8F12E1F215F718900BE09C8 /* EasyCollectionViewFooterView.xib */; };
+		F8F12E25215F71B500BE09C8 /* EasyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F12E23215F71B500BE09C8 /* EasyCollectionViewCell.m */; };
+		F8F12E26215F71B500BE09C8 /* EasyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8F12E24215F71B500BE09C8 /* EasyCollectionViewCell.xib */; };
+		F8F12E29215F77A200BE09C8 /* Easy2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F12E28215F77A200BE09C8 /* Easy2ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8F12DF7215F5EBA00BE09C8 /* FLSCollectionViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLSCollectionViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F12DFA215F5EBB00BE09C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8F12DFB215F5EBB00BE09C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8F12DFD215F5EBB00BE09C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8F12DFE215F5EBB00BE09C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8F12E01215F5EBB00BE09C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8F12E04215F5EBB00BE09C8 /* FLSCollectionViewDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FLSCollectionViewDemo.xcdatamodel; sourceTree = "<group>"; };
+		F8F12E06215F5EBD00BE09C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8F12E09215F5EBD00BE09C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8F12E0B215F5EBD00BE09C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8F12E0C215F5EBD00BE09C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8F12E13215F64B400BE09C8 /* EasyCollectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyCollectionController.h; sourceTree = "<group>"; };
+		F8F12E14215F64B400BE09C8 /* EasyCollectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyCollectionController.m; sourceTree = "<group>"; };
+		F8F12E17215F6C3300BE09C8 /* FLSHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLSHeader.h; sourceTree = "<group>"; };
+		F8F12E18215F711F00BE09C8 /* EasyCollectionViewHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyCollectionViewHeaderView.h; sourceTree = "<group>"; };
+		F8F12E19215F711F00BE09C8 /* EasyCollectionViewHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyCollectionViewHeaderView.m; sourceTree = "<group>"; };
+		F8F12E1A215F711F00BE09C8 /* EasyCollectionViewHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EasyCollectionViewHeaderView.xib; sourceTree = "<group>"; };
+		F8F12E1D215F718900BE09C8 /* EasyCollectionViewFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyCollectionViewFooterView.h; sourceTree = "<group>"; };
+		F8F12E1E215F718900BE09C8 /* EasyCollectionViewFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyCollectionViewFooterView.m; sourceTree = "<group>"; };
+		F8F12E1F215F718900BE09C8 /* EasyCollectionViewFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EasyCollectionViewFooterView.xib; sourceTree = "<group>"; };
+		F8F12E22215F71B500BE09C8 /* EasyCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyCollectionViewCell.h; sourceTree = "<group>"; };
+		F8F12E23215F71B500BE09C8 /* EasyCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyCollectionViewCell.m; sourceTree = "<group>"; };
+		F8F12E24215F71B500BE09C8 /* EasyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EasyCollectionViewCell.xib; sourceTree = "<group>"; };
+		F8F12E27215F77A200BE09C8 /* Easy2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Easy2ViewController.h; sourceTree = "<group>"; };
+		F8F12E28215F77A200BE09C8 /* Easy2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Easy2ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8F12DF4215F5EBA00BE09C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8F12DEE215F5EBA00BE09C8 = {
+			isa = PBXGroup;
+			children = (
+				F8F12DF9215F5EBA00BE09C8 /* FLSCollectionViewDemo */,
+				F8F12DF8215F5EBA00BE09C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8F12DF8215F5EBA00BE09C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8F12DF7215F5EBA00BE09C8 /* FLSCollectionViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8F12DF9215F5EBA00BE09C8 /* FLSCollectionViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F8F12DFA215F5EBB00BE09C8 /* AppDelegate.h */,
+				F8F12DFB215F5EBB00BE09C8 /* AppDelegate.m */,
+				F8F12DFD215F5EBB00BE09C8 /* ViewController.h */,
+				F8F12DFE215F5EBB00BE09C8 /* ViewController.m */,
+				F8F12E16215F696600BE09C8 /* CollectionView简单使用 */,
+				F8F12E00215F5EBB00BE09C8 /* Main.storyboard */,
+				F8F12E06215F5EBD00BE09C8 /* Assets.xcassets */,
+				F8F12E08215F5EBD00BE09C8 /* LaunchScreen.storyboard */,
+				F8F12E0B215F5EBD00BE09C8 /* Info.plist */,
+				F8F12E0C215F5EBD00BE09C8 /* main.m */,
+				F8F12E03215F5EBB00BE09C8 /* FLSCollectionViewDemo.xcdatamodeld */,
+				F8F12E17215F6C3300BE09C8 /* FLSHeader.h */,
+			);
+			path = FLSCollectionViewDemo;
+			sourceTree = "<group>";
+		};
+		F8F12E16215F696600BE09C8 /* CollectionView简单使用 */ = {
+			isa = PBXGroup;
+			children = (
+				F8F12E13215F64B400BE09C8 /* EasyCollectionController.h */,
+				F8F12E14215F64B400BE09C8 /* EasyCollectionController.m */,
+				F8F12E27215F77A200BE09C8 /* Easy2ViewController.h */,
+				F8F12E28215F77A200BE09C8 /* Easy2ViewController.m */,
+				F8F12E18215F711F00BE09C8 /* EasyCollectionViewHeaderView.h */,
+				F8F12E19215F711F00BE09C8 /* EasyCollectionViewHeaderView.m */,
+				F8F12E1A215F711F00BE09C8 /* EasyCollectionViewHeaderView.xib */,
+				F8F12E1D215F718900BE09C8 /* EasyCollectionViewFooterView.h */,
+				F8F12E1E215F718900BE09C8 /* EasyCollectionViewFooterView.m */,
+				F8F12E1F215F718900BE09C8 /* EasyCollectionViewFooterView.xib */,
+				F8F12E22215F71B500BE09C8 /* EasyCollectionViewCell.h */,
+				F8F12E23215F71B500BE09C8 /* EasyCollectionViewCell.m */,
+				F8F12E24215F71B500BE09C8 /* EasyCollectionViewCell.xib */,
+			);
+			path = "CollectionView简单使用";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8F12DF6215F5EBA00BE09C8 /* FLSCollectionViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8F12E10215F5EBD00BE09C8 /* Build configuration list for PBXNativeTarget "FLSCollectionViewDemo" */;
+			buildPhases = (
+				F8F12DF3215F5EBA00BE09C8 /* Sources */,
+				F8F12DF4215F5EBA00BE09C8 /* Frameworks */,
+				F8F12DF5215F5EBA00BE09C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLSCollectionViewDemo;
+			productName = FLSCollectionViewDemo;
+			productReference = F8F12DF7215F5EBA00BE09C8 /* FLSCollectionViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8F12DEF215F5EBA00BE09C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "天立泰";
+				TargetAttributes = {
+					F8F12DF6215F5EBA00BE09C8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F8F12DF2215F5EBA00BE09C8 /* Build configuration list for PBXProject "FLSCollectionViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8F12DEE215F5EBA00BE09C8;
+			productRefGroup = F8F12DF8215F5EBA00BE09C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8F12DF6215F5EBA00BE09C8 /* FLSCollectionViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8F12DF5215F5EBA00BE09C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F12E1C215F711F00BE09C8 /* EasyCollectionViewHeaderView.xib in Resources */,
+				F8F12E0A215F5EBD00BE09C8 /* LaunchScreen.storyboard in Resources */,
+				F8F12E07215F5EBD00BE09C8 /* Assets.xcassets in Resources */,
+				F8F12E02215F5EBB00BE09C8 /* Main.storyboard in Resources */,
+				F8F12E26215F71B500BE09C8 /* EasyCollectionViewCell.xib in Resources */,
+				F8F12E21215F718900BE09C8 /* EasyCollectionViewFooterView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8F12DF3215F5EBA00BE09C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F12DFF215F5EBB00BE09C8 /* ViewController.m in Sources */,
+				F8F12E29215F77A200BE09C8 /* Easy2ViewController.m in Sources */,
+				F8F12E05215F5EBB00BE09C8 /* FLSCollectionViewDemo.xcdatamodeld in Sources */,
+				F8F12E0D215F5EBD00BE09C8 /* main.m in Sources */,
+				F8F12E20215F718900BE09C8 /* EasyCollectionViewFooterView.m in Sources */,
+				F8F12E25215F71B500BE09C8 /* EasyCollectionViewCell.m in Sources */,
+				F8F12E15215F64B400BE09C8 /* EasyCollectionController.m in Sources */,
+				F8F12E1B215F711F00BE09C8 /* EasyCollectionViewHeaderView.m in Sources */,
+				F8F12DFC215F5EBB00BE09C8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8F12E00215F5EBB00BE09C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8F12E01215F5EBB00BE09C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8F12E08215F5EBD00BE09C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8F12E09215F5EBD00BE09C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8F12E0E215F5EBD00BE09C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8F12E0F215F5EBD00BE09C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8F12E11215F5EBD00BE09C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FS8JZB4X6;
+				INFOPLIST_FILE = FLSCollectionViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FLS.FLSCollectionViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8F12E12215F5EBD00BE09C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FS8JZB4X6;
+				INFOPLIST_FILE = FLSCollectionViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FLS.FLSCollectionViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8F12DF2215F5EBA00BE09C8 /* Build configuration list for PBXProject "FLSCollectionViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F12E0E215F5EBD00BE09C8 /* Debug */,
+				F8F12E0F215F5EBD00BE09C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8F12E10215F5EBD00BE09C8 /* Build configuration list for PBXNativeTarget "FLSCollectionViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F12E11215F5EBD00BE09C8 /* Debug */,
+				F8F12E12215F5EBD00BE09C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F8F12E03215F5EBB00BE09C8 /* FLSCollectionViewDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F8F12E04215F5EBB00BE09C8 /* FLSCollectionViewDemo.xcdatamodel */,
+			);
+			currentVersion = F8F12E04215F5EBB00BE09C8 /* FLSCollectionViewDemo.xcdatamodel */;
+			path = FLSCollectionViewDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F8F12DEF215F5EBA00BE09C8 /* Project object */;
+}
