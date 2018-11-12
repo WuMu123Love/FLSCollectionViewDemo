@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 
+/*Git设置分支1*/
 @interface AppDelegate ()
 
 @end
